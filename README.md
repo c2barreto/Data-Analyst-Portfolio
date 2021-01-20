@@ -19,8 +19,10 @@ This repository is a portfolio of data science projects I've completed for self 
 
 # Data Visualization with Python 
 ---
+  +
+  + Line Plotting & Exploring Immigration to Canada Trends
 
-# Data Visualization with Python Projects
+# Data Analysis with Python Projects
 ---
 
 # Clustering: Strategic New Fitness Centers in Los Angeles

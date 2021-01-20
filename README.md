@@ -19,14 +19,27 @@ This repository is a portfolio of data science projects I've completed for self 
 
 # Data Visualization with Python 
 ---
-  +
-  + Line Plotting & Exploring Immigration to Canada Trends
+  + Generating Maps with Python & Folium
+  + Visualizing Immigration Trends to Canada with Regression Plots
+  + Visualizing Immigration Trends to Canada with Pie Charts, Box Plots, Scatter Plots, & Bubble Plots
+  + Visualizing Immigration Trends to Canada with Area Plots, Hiostograms, & Bar Charts
+  + Filtering & Visualizing Immigration Trends to Canada With Line Plots
 
-# Data Analysis with Python Projects
+# Data Analysis Projects with Python 
 ---
+### Developing an Automobile Price Prediction Model
 
-# Clustering: Strategic New Fitness Centers in Los Angeles
----
+Utilizing a public automobile dataset for machine learning, the goal is to explore and formulate models that can best predict a fair but accurate price for automobiles based on features or characteristics they hold. This project has been broken down into multiple notebooks.
+
+Data Methodology:
+
+  + Data Wrangling: Automobile Data Set
+  + Exploratory Analysis on Features that Impact Automobile Prices
+  + Developing Models to Predict Automobile Prices
+  + Automobile Price Prediction Model: Evaluation and Refinement
+
+### Clustering: Strategic New Fitness Centers in Los Angeles
+
 The goal is to minimize travel for all Los Angeles residents in need of access to a local gym while promoting health across the city. The objective of this project is to determine optimal locations for a new gym or fitness center within Los Angeles. Specifically, the end result is to compile a list of Los Angeles neighborhoods that have no gyms or fitness centers within 3000 meters from their center points.
 
 Data Methodology:
@@ -36,5 +49,5 @@ Data Methodology:
   3. Exploring Neighborhood Venues With Foursquare API
   4. Clustering Neighborhoods by Gym & Fitness Center Data
  
-Tools: numpy, pandas, json, geocoder, IPython, matplotlib, sklearn, and folium.
+Project Notebook
 

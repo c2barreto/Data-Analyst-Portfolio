@@ -5,7 +5,7 @@ This repository is a portfolio of data science projects I've completed for self 
 
 # Machine Learning with Python
 ---
-  + Movie Reccomender System: User-User Filtering 
+  + [Movie Reccomender System: User-User Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/13-RecSys-User-Filtering-movies.ipynb) 
   + Movie Recommender System: Content Based Filtering
   + Customer Segmentation With K-Means Clustering
   + Classifying Cancer Cells With Support Vector Machines

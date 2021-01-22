@@ -46,8 +46,9 @@ Data Methodology:
 
 # Machine Learning with Python
 ---
-  + [Movie Reccomender System: User-User Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/13-RecSys-User-Filtering-movies.ipynb) 
   + [Movie Recommender System: Content Based Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/12-RecSys-Content-Based-movies.ipynb)
+  Recommendation systems are a collection of algorithms used to recommend items to users based on information taken from the user. These systems have become ubiquitous, and can  be commonly seen in online stores, movies databases and job finders. Content-Based or Item-Item recommendation systems, attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects. In this case, the goal is to figure out the input's favorite genres from the movies and ratings given.
+  + [Movie Reccomender System: User-User Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/13-RecSys-User-Filtering-movies.ipynb) 
   + [Classifying Cancer Cells With Support Vector Machines](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Classifying-Cancer-Cells/8-Clas-SVM-cancer.ipynb)
   + [Predicting Customer Churn With Logistic Regression](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Logistic-Regression-On-Customer-Churn/7-Clas-Logistic-Reg-churn.ipynb)
   + [Decision Tree For Prescribing Medications](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Decision-Tree/6-Clas-Decision-Trees-drug.ipynb)

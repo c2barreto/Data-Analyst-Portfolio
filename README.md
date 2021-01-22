@@ -19,7 +19,7 @@ Data Methodology:
 
 ### [Machine Learning: Modeling Loan Classifiers](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Modeling-Loan-Classifiers/Modeling-Loan-Classifiers.ipynb)
 
-The project goal is to build an accurate model that can immediatley classify whether loans will be paid off or sent to collections based on data and features from past loans. Several loan classifier models are to be built using machine learning on a dataset about past loans. The best classification model will be selected after each model's accuracy is evaluated.
+The project goal is to build an accurate model that can predict whether loans from customers will be paid off or sent to collections. Several loan classifier models are to be built using machine learning on a dataset about past loans. The best classification model will be selected after each model's accuracy is evaluated.
 
 Data Methodology:
 

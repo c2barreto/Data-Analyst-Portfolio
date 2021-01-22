@@ -81,7 +81,7 @@ Logistic regression will be used on a data set about customers who left in order
 
 # Data Visualization with Python 
 ---
-  + [Generating Maps with Python & Folium](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/5-Generating-Maps-in-Python.ipynb)
+Exploring a dataset containing annual data on the flows of international immigrants. The goal is to visualize immigration trends to Canada using multiple graphing techniques in Python.   
   + [Visualizing Immigration Trends to Canada with Regression Plots](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/4-Regression-Plots.ipynb)
   + [Visualizing Immigration Trends to Canada with Pie Charts, Box Plots, Scatter Plots, & Bubble Plots](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/3-Pie-Charts-Box-Plots-Scatter-Plots.ipynb)
   + [Visualizing Immigration Trends to Canada with Area Plots, Hiostograms, & Bar Charts](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/2-Area-Plots-Histograms-and-Bar-Charts.ipynb)

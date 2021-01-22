@@ -44,7 +44,7 @@ Data Methodology:
   + [Developing Models to Predict Automobile Prices](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Automobile-Price-Prediction-Model/3-model-development.ipynb)
   + [Automobile Price Prediction Model: Evaluation and Refinement](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Automobile-Price-Prediction-Model/4-model-evaluation-and-refinement.ipynb)
 
-# Machine Learning with Python
+# Machine Learning Algorithms with Python
 ---
 ### [Movie Recommender System: Content Based Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/12-RecSys-Content-Based-movies.ipynb)
 
@@ -54,14 +54,30 @@ Recommendation systems are a collection of algorithms used to recommend items to
   
 User-User Filtering, is also known as Collaborative Filtering. This technique uses other users to recommend items to the input user. It attempts to find users that have similar preferences and opinions as the input and then recommends items that they have liked to the input. There are several methods of finding similar users and the one that will be used here is going to be based on the Pearson Correlation Function.
  
-  + [Classifying Cancer Cells With Support Vector Machines](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Classifying-Cancer-Cells/8-Clas-SVM-cancer.ipynb)
-  + [Predicting Customer Churn With Logistic Regression](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Logistic-Regression-On-Customer-Churn/7-Clas-Logistic-Reg-churn.ipynb)
-  + [Decision Tree For Prescribing Medications](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Decision-Tree/6-Clas-Decision-Trees-drug.ipynb)
-  + [Applying K-Nearest Neighbors For Marketing Telecoms Services](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/K-Nearest-Neighbors/5-Clas-K-Nearest-neighbors-CustCat.ipynb)
-  + [Non Linear Regression Analysis on China's GDP](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Non-Linear-Regression-China-GDP/4-Reg-NoneLinearRegression.ipynb)
-  + [Polynomial Regression on Car Engine Size Vs Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/3-Polynomial-Regression-Co2.ipynb)
-  + [Multiple Linear Regression To Predict CO2 Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/2-Mulitple-Linear-Regression-Co2.ipynb)
-  + [Simple Linear Regression to Predict CO2 Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/1-Simple-Linear-Regression-Co2.ipynb)
+ ### [Classifying Cancer Cells With Support Vector Machines](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Classifying-Cancer-Cells/8-Clas-SVM-cancer.ipynb)
+ 
+ Support Vector Machines (SVM) work by mapping data to a high-dimensional feature space so that data points can be categorized, even when the data is not otherwise linearly separable. Characteristics of new data can be used to predict the group to which a new record should belong. The goal for this project is to use SVM to build and train a model using human cell records, and classify cells to whether the samples are benign or malignant.
+ 
+ ### [Predicting Customer Churn With Logistic Regression](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Logistic-Regression-On-Customer-Churn/7-Clas-Logistic-Reg-churn.ipynb)
+ 
+ A telecommunications company is concerned about the number of customers leaving their land-line business for cable competitors. They need to understand who is leaving.
+Logistic regression will be used on a data set about customers who left in order to build a model that can classify and predict if current customers will leave for a competitor, so that they can take some action to retain the customers.
+ 
+ ### [Decision Tree For Prescribing Medications](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Decision-Tree/6-Clas-Decision-Trees-drug.ipynb)
+ 
+ A decision tree classification algorithm is needed to build a model from historical data of patients, and their response to different medications. The trained decision tree will be built to predict the class of a unknown patient, or to find a proper drug for a new patient.
+ 
+
+ ### [Non Linear Regression Analysis on China's GDP](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Non-Linear-Regression-China-GDP/4-Reg-NoneLinearRegression.ipynb)
+ 
+ The goal is to Fit a non-linear model to the datapoints corrensponding to China's GDP from 1960 to 2014 in order to predict it's future growth. The model's accuracy is evaluated using mean absolute error, residual sum of squares, and R2-score
+ 
+ ### Applying Regression Alorithms on Fuel Consumption to Predict CO2 Emissions
+   * [Polynomial Regression on Car Engine Size Vs Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/3-Polynomial-Regression-Co2.ipynb)
+ 
+   * [Multiple Linear Regression To Predict CO2 Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/2-Mulitple-Linear-Regression-Co2.ipynb)
+ 
+   * [Simple Linear Regression to Predict CO2 Emissions](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Regression-On-CO2-Emissions/1-Simple-Linear-Regression-Co2.ipynb)
 
 # Data Visualization with Python 
 ---

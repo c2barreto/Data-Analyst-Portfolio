@@ -1,4 +1,6 @@
----Practice 1
+/* List the event number, date held, customer number, customer name, facility
+number, and facility name of 2018 events placed by Boulder customers. */
+
 SELECT ER.EventNo, ER.DateHeld, ER.CustNo, CM.CustName,  
        FC.FacNo, FC.FacName
 FROM EventRequest as ER INNER JOIN Customer as CM
@@ -8,7 +10,10 @@ FROM EventRequest as ER INNER JOIN Customer as CM
 WHERE City = 'Boulder'
 	AND DateHeld BETWEEN '2018-01-01'AND '2018-12-31';
 	
---Practice 2
+/* List the customer number, customer name, event number, date held, facility number, 
+facility name, and estimated audience cost per person for events held on 2018, in 
+which the estimated cost per person is less than $0.2 */
+
 SELECT CM.CustNo, CM.CustName, ER.EventNo, ER.DateHeld,
 	   FC.FacNo, FC.FacName, EstCost/EstAudience as AudCost
 FROM EventRequest as ER INNER JOIN Customer as CM
@@ -18,30 +23,37 @@ FROM EventRequest as ER INNER JOIN Customer as CM
 WHERE (DateHeld BETWEEN '2018-01-01'AND '2018-12-31')
 	AND EstCost/EstAudience < 0.2;
 	
---Practice 3
+/* List the customer number, customer name, and total estimated costs for 
+Approved events. The total amount of events is the sum of the estimated cost for each event. 
+Group the results by customer number and customer name. */
+
 SELECT CM.CustNo, CM.CustName, SUM(ER.EstCost) AS TotEstCost
 FROM EventRequest as ER INNER JOIN Customer as CM
 	ON ER.CustNo = CM.CustNo
 WHERE Status = 'Approved'
 GROUP BY CM.CustNo, CustName;
 
---Pracitce 4
+/* Inserting a random customer as a test */
+
 INSERT INTO Customer 
   (CustNo, CustName, Address, Internal, Contact, Phone, City, State, Zip)
 VALUES ('C9999999', 'Michael Mannino', '123 Any Street', 'Y', 'Self', '720000',
                'Denver', 'CO', '80204');
 			   
---Practice 5
+/* Increase the rate by 10 percent of resource names equal to nurse. */
 UPDATE ResourceTbl
 	SET Rate = Rate*1.1
 	WHERE ResName = 'Nurse';
 	
---Practice 6
+/* Deleting the random customer that was added */
 DELETE FROM Customer
 WHERE CustNo = 'C9999999';
 
 
---Graded 1
+/*For event requests, list the event number, event date (eventrequest.dateheld), and count of the 
+event plans.  Only include event requests in the result if the event request has more than one 
+related event plan with a work date in December 2018. */
+
 SELECT ER.EventNo, ER.DateHeld, COUNT(EP.PlanNo) AS TotalPlans
 FROM EventRequest AS ER INNER JOIN EventPlan AS EP
 	ON ER.EventNo = EP.EventNo
@@ -49,7 +61,11 @@ WHERE (WorkDate BETWEEN '2018-12-01'AND '2018-12-31')
 GROUP BY ER.EventNo
 HAVING COUNT(EP.PlanNo) > 1;
 
---Graded 2
+
+/* List the plan number, event number, work date, and activity of event plans meeting the
+following two conditions: (1) the work date is in December 2018 and (2) the event is held in
+the “Basketball arena” */
+
 SELECT EP.PlanNo, ER.EventNo, EP.WorkDate, EP.Activity
 FROM EventRequest AS ER INNER JOIN EventPlan AS EP
 	ON ER.EventNo = EP.EventNo
@@ -58,7 +74,10 @@ FROM EventRequest AS ER INNER JOIN EventPlan AS EP
 WHERE (WorkDate BETWEEN '2018-12-01'AND '2018-12-31')
 	AND F.FacName = 'Basketball arena';
 
---Graded 3
+/* List the event number, event date, status, and estimated cost of events where there is an event
+plan managed by Mary Manager and the event is held in the basketball arena in the period 
+October 1 to December 31, 2018. */
+
 SELECT ER.EventNo, ER.DateHeld, ER.Status, ER.EstCost
 FROM EventPlan AS EP INNER JOIN EventRequest AS ER
 	ON ER.EventNo = EP.EventNo
@@ -70,7 +89,11 @@ WHERE (ER.DateHeld BETWEEN '2018-10-01'AND '2018-12-31')
 	AND F.FacName = 'Basketball arena'
 	AND E.EmpName = 'Mary Manager';
 
---GRADED 4
+/* List the plan number, line number, resource name, number of resources 
+(eventplanline.number), location name, time start, and time end where the event is held at the
+basketball arena, the event plan has activity of activity of “Operation”, and the event plan has
+a work date in the period October 1 to December 31, 2018. */
+
 SELECT EPL.PlanNo, EPL.LineNo, RT.ResName, EPL.NumberFld, L.LocName,
 		EPL.TimeStart, EPL.TimeEnd 
 FROM EventPlan AS EP INNER JOIN EventPlanLine AS EPL
@@ -85,36 +108,34 @@ WHERE (EP.WorkDate BETWEEN '2018-10-01'AND '2018-12-31')
 	AND F.FacName = 'Basketball arena'
 	AND EP.Activity = 'Operation';
 
---database mod problems
+--database modifications
 
---Graded 1
 INSERT INTO Facility 
   (FacNo, FacName)
 VALUES ('C9999999', 'Swimming Pool');
 
---Graded 2
+
 INSERT INTO Location
 	(LocNo, FacNo, Locname)
 VALUES ('L9999999', 'C9999999', 'Door');
 
---Graded 3
+
 INSERT INTO Location
 	(LocNo, FacNo, Locname)
 VALUES ('L9999998', 'C9999999', 'Locker Room');
 
---Graded 4
+
 UPDATE Location
 	SET LocName = 'Gate'
 	WHERE LocName = 'Door';
 	
---Graded 5
 DELETE FROM Location
 WHERE LocName = 'L9999998';
 
 
---SQL Statements with Errors and Poor Formatting
+--Correcting SQL Statements with Errors and Poor Formatting
 
---1
+--1 
 SELECT eventrequest.eventno, dateheld, status, estcost
 FROM eventrequest, employee, facility, eventplan 
 WHERE estaudience > 5000
@@ -193,7 +214,8 @@ eventplanline.planno AND eventrequest.facno
 'Basketball arena' AND 
    eventplanline.resno = resourcetbl.resno
       AND eventrequest.eventno = eventplan.eventno 
---5 correct
+      
+--5 corrected
 SELECT eventplan.planno, lineno, resname, numberfld,
 	timestart, timeend
 FROM eventrequest, facility, eventplan, 

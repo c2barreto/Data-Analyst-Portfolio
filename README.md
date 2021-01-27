@@ -45,9 +45,9 @@ Data Methodology:
   + [Automobile Price Prediction Model: Evaluation and Refinement](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Automobile-Price-Prediction-Model/4-model-evaluation-and-refinement.ipynb)
 
 ### Intercollegiate Athlethics Database
-  + Created an ERD for a database to support the scheduling and operations of intercollegiate athletic events.
-  + Utilized SQL to create tables and to define column data types, primary keys, foreign keys, and additional constraints.
-  + Queried ad hoc requests involving multiple joins between different tables and specific clauses to filter the data
+  + Created an [ERD](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/SQL/Intercollegiate-Athletic-Database/1-Background%20on%20Intercollegiate%20Atheltic%20Database.pdf) for a database to support the scheduling and operations of intercollegiate athletic events.
+  + Utilized SQL to [create tables](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/SQL/Intercollegiate-Athletic-Database/3-CreateTables.sql) and to define column data types, primary keys, foreign keys, and additional constraints.
+  + Queried [ad hoc requests](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/SQL/Intercollegiate-Athletic-Database/5-JoinStatementQueries.sql) involving multiple joins between different tables and specific clauses to filter the data
 
 # Machine Learning Algorithms with Python
 ---

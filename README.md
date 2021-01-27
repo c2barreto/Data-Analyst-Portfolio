@@ -44,6 +44,11 @@ Data Methodology:
   + [Developing Models to Predict Automobile Prices](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Automobile-Price-Prediction-Model/3-model-development.ipynb)
   + [Automobile Price Prediction Model: Evaluation and Refinement](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Analysis-Projects/Automobile-Price-Prediction-Model/4-model-evaluation-and-refinement.ipynb)
 
+### Intercollegiate Athlethics Database
+  + Created an ERD for a database to support the scheduling and operations of intercollegiate athletic events.
+  + Utilized SQL to create tables and to define column data types, primary keys, foreign keys, and additional constraints.
+  + Queried ad hoc requests involving multiple joins between different tables and specific clauses to filter the data
+
 # Machine Learning Algorithms with Python
 ---
 ### [Movie Recommender System: Content Based Filtering](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Machine-Learning-Projects/Movie-Recommender-Systems/12-RecSys-Content-Based-movies.ipynb)
@@ -86,5 +91,3 @@ Exploring a dataset containing annual data on the flows of international immigra
   + [Visualizing Immigration Trends to Canada with Pie Charts, Box Plots, Scatter Plots, & Bubble Plots](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/3-Pie-Charts-Box-Plots-Scatter-Plots.ipynb)
   + [Visualizing Immigration Trends to Canada with Area Plots, Hiostograms, & Bar Charts](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/2-Area-Plots-Histograms-and-Bar-Charts.ipynb)
   + [Filtering & Visualizing Immigration Trends to Canada With Line Plots](https://github.com/c2barreto/Data-Analyst-Portfolio/blob/main/Data-Visualization-Projects/1-Filtering-LinePlotting.ipynb)
-
-

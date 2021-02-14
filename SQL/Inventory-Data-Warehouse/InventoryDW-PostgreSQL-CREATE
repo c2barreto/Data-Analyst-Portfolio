@@ -1,3 +1,20 @@
+DROP SEQUENCE IF EXISTS inventory_seq;
+
+DROP TABLE IF EXISTS inventory_fact;
+DROP TABLE IF EXISTS branch_plant_dim;
+DROP TABLE IF EXISTS cust_vendor_dim;
+DROP TABLE IF EXISTS item_master_dim;
+DROP TABLE IF EXISTS addr_cat_code1;
+DROP TABLE IF EXISTS addr_cat_code2;
+DROP TABLE IF EXISTS item_cat_code1;
+DROP TABLE IF EXISTS item_cat_code2;
+DROP TABLE IF EXISTS company_dim;
+DROP TABLE IF EXISTS zip_codes;
+DROP TABLE IF EXISTS date_dim;
+DROP TABLE IF EXISTS trans_type_dim;
+DROP TABLE IF EXISTS Currency_Dim;
+
+
 CREATE SEQUENCE inventory_seq START WITH 18301 INCREMENT BY 1;
 
 CREATE TABLE Currency_Dim
